@@ -3,7 +3,7 @@ layout: default
 ---
 # **Introduction**
 
-## <u>**Table of Contents**<u>
+## <u>Table of Contents<u>
 
 # **Professional Self-Assessment**
 
