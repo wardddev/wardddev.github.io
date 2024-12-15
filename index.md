@@ -20,7 +20,7 @@ Software engineering and databases emphasizes the importance of best practices. 
 The deployment of Security principles protect confidential data and users from threat actors. Companies have a legal and moral obligation to follow industry standards to prevent financial damages to the many involved parties. Specific security concepts are encryption, authentication, and user access levels. Encrypting sensitive data is an important step in protecing valuable assets. Authentication and user access levels enable control over who has access to specific data. An example of this is storing and encrypting SMTP credentials like I did with the full-stack web application.
 
 # **Original Artifact**
-[Link to artifact repository](https://github.com/wardddev/cs465-fullstack/tree/main)
+[Link to Artifact Repository](https://github.com/wardddev/cs465-fullstack/tree/main)
 
 The artifact that will be enhanced is a full-stack web application called Travlr Getaways. This application was originally created as a college project during the course CS465-Full Stack Development 1 from 09/2024 to 11/2024. It's built using the MEAN stack which stands for the JavaScript technologies MongoDB, Express.js, Angular, and Node.js. It is designed as a travel booking site for customers to browse and book travel packages. Customers can create accounts and look through travel locations, rooms, and more. There is also an admin-only SPA for maintaining customer accounts, travel packages, and items within.
 
