@@ -65,7 +65,7 @@ Embedded Youtube Link
 The artifact was improved with the implementation of the mailing service. This service allows a user to enter their email in the homepage to receive a welcome email from Travlr Getaways. Once the user enters their email, a JavaScript sends a POST request to the RESTful API after validating the data. This request is validated on the back-end Node.js server as well then calls the mailing service to send an email using NodeMailer. A response on is sent back to the front-end to confirm to user if the email was successful. For a testing and debugging environment, emails are captured using mailtrap.
 
 ![Admin Main Page](assets/img/enhance1-email-example.PNG)
-*Figure 7 - Mailing Service Example*
+*Figure 3 - Mailing Service Example*
 
 One course outcome achieved in this enhancement is “Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals”. This goal was met in several ways, but primarily in:
 - The use of using third-party services such as mailtrap for creating a testing and debugging environment where outputs could be contained.
@@ -77,11 +77,14 @@ In the process of applying this enhancement, I faced several challenges and lear
 ## **Algorithms and Data Structures**
 The artifact was enhanced to add the sorting functionality for the travel page displayed to the user. The original artifact retrieved a list of all trips to be displayed to the user. With the new sorting function, the user can choose the preferred way to list the trips through alphabetically (A-Z) or pricing (Low to High). The sorting options are presented to the user in a dropdown menu.
 
+![Admin Main Page](assets/img/enhance2-Dropdown-Menu.PNG)
+*Figure 4 - Dropdown Menu Example*
+
 ![Admin Main Page](assets/img/enhance2-Alphabetically-Sort.PNG)
-*Figure 4 - Alphabetical Sorting Example*
+*Figure 5 - Alphabetical Sorting Example*
 
 ![Admin Main Page](assets/img/enhance2-Price-Sort.PNG)
-*Figure 5 - Price Sorting Example*
+*Figure 6 - Price Sorting Example*
 
 One course outcome achieved in this enhancement is “Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices”. The reason this course outcome was achieved was through the development and application of the sorting function. The first approach I had was to create multiple functions to be called for each type of travel list I wanted to provide to the user, such as tripListAlphabetically, tripListPricingLowToHigh, etc. The problem was the redundancies and duplicated logic. By applying the algorithmic principles and computer science practices, I realized it was more efficient to modify the existing GET tripList to use the existing parameters in the database to sort and then a direction of up/down. By consolidating multiple sorting functions into a single function that could be adjusted to different parameters, I reduced redundancy and improved maintainability.
 
@@ -91,10 +94,10 @@ In the process of applying this enhancement, I faced several challenges and lear
 The artifact was expanded with this third enhancement focusing on databases. This enhancement took the previous mailing service enhancement and added even more functionality. The general function added is a reservation system which allows users to submit a reservation form and receive confirmation the form was received. The server takes the submitted form, validates and sanitizes it, and then saves the reservation to the database. The server then generates and sends an email containing a read-back of the reservation to the user’s submitted email, as well as a confirmation message within the user’s browser.
 
 ![Admin Main Page](assets/img/enhance3-user-mailing-service.PNG)
-*Figure 6 - User Reservation & Mailing Service Example*
+*Figure 7 - User Reservation & Mailing Service Example*
 
 ![Admin Main Page](assets/img/enhance3-email-example.PNG)
-*Figure 7 - Reservation Email Example*
+*Figure 8 - Reservation Email Example*
 
 One course outcome achieved in this enhancement is “Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources”.
 
