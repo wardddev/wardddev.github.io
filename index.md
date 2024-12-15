@@ -9,13 +9,8 @@ Welcome to my ePortfolio, a showcase of the skills and knowledge I developed dur
 
 1. [Professional Self-Assessment](#professional-self-assessment)
 2. [Original Artifact](#original-artifact)
-    - [Admin Main Page](#admin-main-page)
-    - [User Main Page](#user-main-page)
 3. [Code Review](#code-review)
 4. [Enhancements](#enhancements)
-    - [Software Engineering and Design](#software-engineering-and-design)
-    - [Algorithms and Data Structures](#algorithms-and-data-structures)
-    - [Databases](#databases)
 5. [Conclusion](#conclusion)
 
 # **Professional Self-Assessment**
