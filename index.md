@@ -85,3 +85,4 @@ One course outcome achieved in this enhancement is “Develop a security mindset
 
 In the process of applying this enhancement, I faced several challenges and learned a great deal. This enhancement was not only on the existing artifact, but on a previous enhancement. I learned how to constantly progress and evolve the web application by taking existing functions and re-purposing them. Similar to previous enhancements, I learned more about full-stack development and dealing with increasingly larger projects. A challenge I faced was realizing the commenting and documentation of my previous enhancement one was not sufficient for even the original developer, myself, to jump in and understand. I took more time organizing my project as well as optimizing code blocks and documentation. Improving documentation not only helped me understand my own code better, but also prepared me for team collaboration.
 
+# **Conclusion**
