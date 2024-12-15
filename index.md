@@ -20,7 +20,15 @@ Software engineering and databases emphasizes the importance of best practices. 
 The deployment of Security principles protect confidential data and users from threat actors. Companies have a legal and moral obligation to follow industry standards to prevent financial damages to the many involved parties. Specific security concepts are encryption, authentication, and user access levels. Encrypting sensitive data is an important step in protecing valuable assets. Authentication and user access levels enable control over who has access to specific data. An example of this is storing and encrypting SMTP credentials like I did with the full-stack web application.
 
 # **Original Artifact**
+Link to artifact repository:
+<a href="https://github.com/wardddev/cs465-fullstack/tree/main">
+
 The artifact that will be enhanced is a full-stack web application called Travlr Getaways. This application was originally created as a college project during the course CS465-Full Stack Development 1 from 09/2024 to 11/2024. It's built using the MEAN stack which stands for the JavaScript technologies MongoDB, Express.js, Angular, and Node.js. It is designed as a travel booking site for customers to browse and book travel packages. Customers can create accounts and look through travel locations, rooms, and more. There is also an admin-only SPA for maintaining customer accounts, travel packages, and items within.
+
+<div style="text-align: center;">
+  <img src="assets/img/Admin-Main-Page.png" width="720px" title="Admin Main Page" />
+  <p><em>Figure 1 - Admin Main Page</em></p>
+</div>
 
 This full-stack web application was selected for my ePortfolio because it represents an accumulation of skills acquired through the computer science program. The program presents full-stack web app development, API integration, database management, and using frameworks for front-end and back-end like Angular and Express. The database management component displays working with MongoDB to store and query data on trips, user logins, and more. The API integration component involves using Node.js and Express.js to process requests for data and retrieve them from the database. Using the different frameworks in the MEAN stack, like Angular and Express, also shows efficiency in handling endpoints and HTTP methods so that data can be processed from the front-end to back-end and back.
 
