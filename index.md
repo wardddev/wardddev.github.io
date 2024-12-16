@@ -52,7 +52,7 @@ This application was designed and developed while collaborating with my previous
 The program also presents the skills full-stack web app development, API integration, database management, and using frameworks for front-end and back-end like Angular and Express. The database management component displays working with MongoDB to store and query data on trips, user logins, and more. The API integration component involves using Node.js and Express.js to process requests for data and retrieve them from the database. Using the different frameworks in the MEAN stack, like Angular and Express, also shows efficiency in handling endpoints and HTTP methods so that data can be processed from the front-end to back-end and back.
 
 # **Code Review**
-Embedded Youtube Link
+[![CS499 Ruth Code Review](https://img.youtube.com/vi/65hlQSnVIkY/0.jpg)](https://youtu.be/65hlQSnVIkY)
 
 # **Enhancements**
 
