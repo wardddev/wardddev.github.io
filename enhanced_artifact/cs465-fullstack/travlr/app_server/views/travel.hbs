@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- travel view -->
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Travlr Getaways: Travel</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="background">
+		<div id="page">
+			{{> header}}
+			<div id="contents">
+				<div class="box">
+					<div>
+						<div class="body">
+							<h1>Travel</h1>
+							<div class="dropdown">
+								<button onclick="dropdown()" class="dropbtn">Filter</button>
+								<div id="myDropdown" class="dropdown-content">
+									<a href="/travel?sortBy=name&sortDirection=asc">Sort Alphabetically (A-Z)</a>
+									<a href="/travel?sortBy=perPerson&sortDirection=asc">Sort by Price (Low to High)</a>
+								</div>
+							</div>
+							<ul id="sites">
+							{{#each trips}}
+								<li>
+									<a href="/api/trips/{{this.code}}"><img src="images/{{this.image}}" alt="Img"></a>
+									<h2><a href="/travel">{{this.name}}</a></h2>
+									<p>Price: ${{this.perPerson}}</p>
+									{{{this.description}}}
+								</li>
+							{{/each}}
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		{{> footer}}
+	</div>
+
+	<script src="/javascripts/dropdownmenu.js"></script>
+</body>
+</html>
